@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>.appointment-form {
+        width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f5f7fd;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .form-group {
+        display: flex;
+      justify-content: space-between;
+        margin: 15px;
+    }
+    
+    .form-group input,
+    .form-group select {
+        width: 48%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+    
+    textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 14px;
+        resize: none;
+        height: 80px;
+        margin-bottom: 15px;
+    }
+    
+    .submit-btn {
+        width: 100%;
+        padding: 15px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    
+    .submit-btn:hover {
+        background-color: #0056b3;
+    }
+    </style>
+</body>
+</html>
+<div class="appointment-form">
+    <div class="form-group">
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+    </div>
+    <div class="form-group">
+        <input type="text" placeholder="Your Mobile">
+        <select>
+            <option>Choose Doctor</option>
+            <option>Doctor 1</option>
+            <option>Doctor 2</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <input type="date" placeholder="Choose Date">
+        <input type="time" placeholder="Choose Time">
+    </div>
+    <textarea placeholder="Describe your problem"></textarea>
+    <button class="submit-btn">Book Appointment</button>
+</div>

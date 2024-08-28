@@ -38,14 +38,8 @@ section.topber {
     margin-left: 10px;
 }
 
-.icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .navbar a h1 {
     font-size: 42px;
-    /* text-decoration: none; */
     color: blue;
     margin-left: 70px;
     margin-top: 10px;
@@ -369,7 +363,6 @@ h1 {}
     margin-top: 0px;
 }
 
-.text-center.mx-auto.mb-5.wow.fadeInUp {}
 
 .text-center.mx-auto.mb-5.wow.fadeInUp {
     display: flex;
@@ -496,7 +489,7 @@ section.Doctor {
 
 .card-img img {max-width: 300px;}
 
-img {}
+
 
 .doctor-name {
     display: flex;
@@ -543,7 +536,6 @@ img {}
     opacity: 1;
 }
 
-img {}
 
 .card-item:hover img {
     top: -30px;
@@ -569,7 +561,7 @@ section.appointment {
     font-size: 16px;
 }
 
-.make {}
+
 
 .make h1 {
     font-size: 35px;
@@ -577,7 +569,7 @@ section.appointment {
     width: 600px;
 }
 
-.make {}
+
 
 .make p {
     font-size: 17px;
@@ -755,7 +747,6 @@ section.Testimonial {
     align-items: center;
 }
 
-.form-group option {}
 
 .form-group select {
     height: 60px;
@@ -777,8 +768,6 @@ section.footer {}section.footer {
     font-size: 24px;
 }
 
-h4 {}
-
 .footer-coolum h3 {
     font-size: 21px;
 }
@@ -795,10 +784,6 @@ h4 {}
 }
 
 i.fa-solid.fa-location-dot {
-    margin-right: 13px;
-}
-
-i.fa-solid.fa-phone {
     margin-right: 13px;
 }
 
@@ -889,7 +874,7 @@ input[type="email"] {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border-top: 1px solid skyblue;
+    border-top: 1px solid rgb(153, 216, 241);
     width: 850px;
     height: 50px;
     margin-left: 22%;
@@ -907,4 +892,8 @@ input[type="email"] {
 
 .Call i {
     color: blue;
+    margin-right: 8px;
+}
+.footer-coolum p i{
+    margin-right: 13px;
 }
